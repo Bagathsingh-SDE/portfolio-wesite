@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narmidha Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Narmidha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="text-center text-light" style="background-color: black; padding: 80px 0;">
+        <div class="container">
+            <h1 class="mt-4">Hello, I'm Narmidha</h1>
+            <p>Web Developer | Software Enthusiast | Problem Solver</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/narmidha/" class="social-icon">LinkedIn</a>
+                <a href="https://github.com/narmidha" class="social-icon">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="text-center py-5">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Narmidha, a passionate software developer with a strong interest in front-end development, Python programming, and networking. I hold a B.E. in Electronics and Communication Engineering from Anna University, Trichy, with a CGPA of 8.09. I am eager to apply my skills to create impactful solutions and contribute to meaningful projects.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="text-center py-5 bg-light">
+        <div class="container">
+            <h2>Skills <i class="fa-solid fa-code"></i></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-4 skill-card">
+                    <i class="fab fa-html5 html"></i>
+                    <i class="fab fa-css3-alt css"></i>
+                    <i class="fab fa-python python"></i>
+                    <h4>Development Skills</h4>
+                    <p>HTML, CSS, Python, Basics of Java</p>
+                </div>
+                <div class="col-md-5 mb-4 skill-card">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h4>Networking</h4>
+                    <p>Basics of Networking, Cloud Computing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="text-center py-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 project-card">
+                    <h5>Enhancing Performance of Wireless Sensor Networks</h5>
+                    <p>Implemented SET protocol for efficient attack detection in Wireless Sensor Networks.</p>
+                </div>
+                <div class="col-md-4 project-card">
+                    <h5>Digital Marketing Content Creation</h5>
+                    <p>Created advertisements, blogs, and newsletters to enhance brand presence in social media platforms.</p>
+                </div>
+                <div class="col-md-4 project-card">
+                    <h5>Portfolio Website</h5>
+                    <p>Designed and developed a responsive portfolio website showcasing skills, projects, and achievements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center py-5 bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul class="list-unstyled social-icon d-flex justify-content-center gap-4">
+                <li><a href="https://www.linkedin.com/in/narmidha/" class="d-inline-block"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/narmidha" class="d-inline-block"><i class="fa-brands fa-github"></i> GitHub</a></li>
+            </ul>
+            <div class="contact-details mt-4">
+                <p>Email: <a href="mailto:narmidhamaharajan@gmail.com">narmidhamaharajan@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919943670081">+91 9943670081</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn">Top</button>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripttt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #f0f0f0, #eaeaea);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(45deg, #343a40, #5a6268);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #333, #444);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 2.8rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffc107;
+    transform: scale(1.2);
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background: linear-gradient(to right, #fff, #f8f9fa);
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #28a745;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    padding: 60px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#skills .col-md-5 {
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+#skills .col-md-5:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #f1f1f1, #eaeaea);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#skills i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #007bff;
+}
+
+#skills h4 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#skills p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+    text-align: center;
+}
+
+/* Inline Technology Display */
+#skills .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#skills .technologies span {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#skills .technologies span:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+#projects .project-card {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+#projects .project-card:hover {
+    background: linear-gradient(to right, #ffffff, #f1f1f1);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #ccc;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background: linear-gradient(to right, #f8f9fa, #fff);
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #007bff;
+    text-align: center;
+}
+
+ul.social-icon li a {
+    font-size: 24px;
+    color: #007bff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+ul.social-icon li a:hover {
+    color: #28a745;
+    transform: scale(1.2);
+}
+
+/* Scroll to Top Button */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+    background: linear-gradient(to right, #0056b3, #003f88);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
